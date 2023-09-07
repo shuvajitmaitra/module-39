@@ -2,6 +2,7 @@
 import './App.css'
 import Counter from './Counter'
 import Friends from './Friends'
+import Posts from './Posts'
 import Team from './Team'
 import Users from './Users'
 
@@ -16,6 +17,7 @@ const handleClick2 = (num) =>{
     <>
       
       <h1>React</h1>
+      <Posts></Posts>
       <Friends></Friends>
       <Users></Users>
       <Team></Team>
